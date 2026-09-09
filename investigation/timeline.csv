@@ -1,0 +1,4 @@
+date,time,investigator,category,action,tool,query,result,evidence,status
+2026-09-09,,Afiss,Scoping,Définition du scénario,N/A,NovaTech Defense,Cible fictive et périmètre définis,docs/scenario.md,Completed
+2026-09-09,,Afiss,Methodology,Définition de la méthode,N/A,Due diligence OSINT,Méthodologie et scoring définis,docs/methodology.md,Completed
+2026-09-10,,Afiss,Project,Initialisation du dépôt,Git,novatech-defense-osint,Arborescence et fichiers de suivi créés,README.md,Completed

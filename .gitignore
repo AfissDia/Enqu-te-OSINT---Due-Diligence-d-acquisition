@@ -1,0 +1,22 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log
+
+# Never commit real credentials or raw sensitive material
+.env
+*.key
+*.pem
+secrets/
