@@ -8,3 +8,7 @@ date,time,investigator,category,action,tool,query,result,evidence,status
 2026-09-10,11:30,Afiss,Legal,Analyse d'un ancien contentieux fournisseur,Manual review,SRC-004,Litige commercial 2023-2024 identifié,evidence/legal/SRC-004_contentieux_fournisseur.md,Completed
 2026-09-10,11:45,Afiss,Legal,Vérification de la clôture du dossier,Manual review,SRC-005,Accord transactionnel indiqué en 2024,evidence/legal/SRC-005_note_cloture_litige.md,Completed
 2026-09-10,12:00,Afiss,Legal,Création du finding F02,Analysis,SRC-004 SRC-005,Risque juridique modéré documenté,investigation/findings.csv,Completed
+2026-09-10,14:45,Afiss,Governance,Ajout du screening de tous les actionnaires,Analysis,SRC-001,Tous les actionnaires contrôlés au premier niveau; Asteria retenue pour approfondissement,docs/report.md,Completed
+2026-09-10,15:00,Afiss,Cyber,Analyse de l’historique des sous-domaines,Passive corpus review,SRC-006 SRC-007,dev.novatech-defense.test identifié comme sous-domaine historique,evidence/cyber/SRC-006_ct_history.md,Completed
+2026-09-10,15:10,Afiss,Cyber,Corroboration de la fonction du sous-domaine dev,Archive review,SRC-008,Archive simulée associée à NovaTech Development Portal,evidence/cyber/SRC-008_web_archive_dev.md,Completed
+2026-09-10,15:20,Afiss,Cyber,Création du finding F03,Analysis,SRC-006 SRC-007 SRC-008,Risque cyber historique modéré documenté,investigation/findings.csv,Completed

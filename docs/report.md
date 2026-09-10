@@ -31,6 +31,18 @@ La direction retenue pour le scénario est la suivante : Claire Varenne (Présid
 ### 6.1 Structure déclarée
 Le corpus de travail attribue le capital de NovaTech Defense à Claire Varenne (32 %), Marc Delcourt (15 %), Asteria Participations SAS (28 %), HexaGrowth (17 %) et au management / salariés (8 %).
 
+Un premier screening est réalisé sur l'ensemble des actionnaires avant d'approfondir les situations présentant un signal de risque :
+
+| Actionnaire | Participation | Résultat du screening | Suite |
+|---|---:|---|---|
+| Claire Varenne | 32 % | Aucun signal défavorable dans le corpus | Vérifications standard |
+| Marc Delcourt | 15 % | Aucun signal défavorable dans le corpus | Vérifications standard |
+| Asteria Participations SAS | 28 % | Société détenue majoritairement par une holding étrangère | Analyse approfondie — F01 |
+| HexaGrowth | 17 % | Aucun signal défavorable dans le corpus | Vérifications standard |
+| Management / salariés | 8 % | Participation dispersée | Vérifications standard |
+
+Le choix d'approfondir Asteria ne signifie donc pas que les autres actionnaires sont ignorés : ils sont tous contrôlés au premier niveau, puis l'enquête est approfondie lorsqu'un signal le justifie.
+
 ### 6.2 Finding F01 - Transparence limitée sur Asteria Participations
 Le recoupement des documents fictifs du corpus montre qu'Asteria Participations SAS, qui détient 28 % de NovaTech Defense, est elle-même détenue à 65 % par Meridian Strategic Holdings S.à r.l., société fictive enregistrée au Luxembourg. Les documents disponibles dans le corpus ne permettent pas d'identifier avec certitude le bénéficiaire effectif final de Meridian Strategic Holdings.
 
@@ -38,7 +50,7 @@ Cette situation ne démontre pas une irrégularité. Elle constitue cependant un
 
 **Niveau de confiance :** élevé sur les participations directes ; moyen sur l'absence d'information concernant le bénéficiaire effectif final.
 
-**Évaluation :** probabilité 3/5, impact 5/5, score 15/25 — prioritaire.
+**Évaluation :** probabilité 3/5, impact 5/5, score 15/25 - prioritaire.
 
 **Recommandation :** obtenir avant l'opération un organigramme capitalistique certifié, les documents relatifs aux bénéficiaires effectifs d'Asteria et de Meridian Strategic Holdings, puis faire valider par le conseil juridique les éventuelles conséquences réglementaires liées au secteur de la défense.
 
@@ -55,7 +67,16 @@ Une seconde source du corpus indique que le dossier a été clôturé en 2024 pa
 **Recommandation :** demander la transaction et confirmer l'absence de procédure résiduelle, de provision significative ou d'obligation financière encore en cours.
 
 ## 8. Exposition cyber
-À compléter.
+### 8.1 Finding F03 - Ancien environnement de développement référencé publiquement
+Le corpus technique simulé contient une entrée historique de certificat associée au sous-domaine `dev.novatech-defense.test`. Une seconde source, représentant un inventaire DNS plus récent, ne contient plus ce sous-domaine. Une archive web simulée associe également cette adresse à une ancienne interface de développement interne.
+
+L'information indique donc qu'un environnement de développement a été publiquement référencé dans le passé. Aucune tentative de connexion, de scan ou d'exploitation n'a été réalisée. Le constat porte uniquement sur des données historiques du corpus.
+
+**Niveau de confiance :** élevé sur l'existence historique du sous-domaine ; moyen sur le niveau d'exposition réel de l'environnement à l'époque.
+
+**Évaluation :** probabilité 3/5, impact 3/5, score 9/25 — modéré.
+
+**Recommandation :** confirmer que l'ancien environnement est définitivement retiré, vérifier l'absence de DNS ou certificat résiduel et intégrer les environnements de développement dans l'inventaire de surface d'attaque.
 
 ## 9. Conformité apparente
 À compléter.
@@ -69,5 +90,5 @@ Une seconde source du corpus indique que le dossier a été clôturé en 2024 pa
 ## 12. Recommandations
 À compléter.
 
-## 13. Conclusion - GO / NO-GO / GO conditionnel
+## 13. Conclusion — GO / NO-GO / GO conditionnel
 À compléter à la fin de l'enquête.
