@@ -1,4 +1,4 @@
-# NovaTech Defense — Due Diligence OSINT
+# NovaTech Defense - Due Diligence OSINT
 
 Projet académique de due diligence réputationnelle et cyber sur une **entreprise fictive**.
 
