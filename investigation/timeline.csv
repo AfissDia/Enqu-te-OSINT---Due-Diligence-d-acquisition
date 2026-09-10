@@ -1,4 +1,10 @@
 date,time,investigator,category,action,tool,query,result,evidence,status
-2026-09-09,,Afiss,Scoping,Définition du scénario,N/A,NovaTech Defense,Cible fictive et périmètre définis,docs/scenario.md,Completed
-2026-09-09,,Afiss,Methodology,Définition de la méthode,N/A,Due diligence OSINT,Méthodologie et scoring définis,docs/methodology.md,Completed
-2026-09-10,,Afiss,Project,Initialisation du dépôt,Git,novatech-defense-osint,Arborescence et fichiers de suivi créés,README.md,Completed
+2026-09-09,10:00,Afiss,Scoping,Définition du périmètre,N/A,NovaTech Defense,Périmètre et scénario définis,docs/scenario.md,Completed
+2026-09-09,10:30,Afiss,Methodology,Définition de la méthode,N/A,Due diligence OSINT,Méthode de collecte validation et scoring définie,docs/methodology.md,Completed
+2026-09-10,10:30,Afiss,Corporate,Analyse de la répartition du capital,Manual review,SRC-001,Actionnaires directs identifiés,evidence/corporate/SRC-001_novatech_cap_table.md,Completed
+2026-09-10,10:45,Afiss,Corporate,Remontée de la chaîne de contrôle,Manual review,SRC-002,Asteria détenue à 65% par Meridian,evidence/corporate/SRC-002_asteria_record.md,Completed
+2026-09-10,11:00,Afiss,Corporate,Vérification du niveau suivant de contrôle,Manual review,SRC-003,UBO final non établi dans le corpus,evidence/corporate/SRC-003_meridian_record.md,Completed
+2026-09-10,11:15,Afiss,Governance,Création du finding F01,Analysis,SRC-001 SRC-002 SRC-003,Risque de transparence capitalistique documenté,investigation/findings.csv,Completed
+2026-09-10,11:30,Afiss,Legal,Analyse d'un ancien contentieux fournisseur,Manual review,SRC-004,Litige commercial 2023-2024 identifié,evidence/legal/SRC-004_contentieux_fournisseur.md,Completed
+2026-09-10,11:45,Afiss,Legal,Vérification de la clôture du dossier,Manual review,SRC-005,Accord transactionnel indiqué en 2024,evidence/legal/SRC-005_note_cloture_litige.md,Completed
+2026-09-10,12:00,Afiss,Legal,Création du finding F02,Analysis,SRC-004 SRC-005,Risque juridique modéré documenté,investigation/findings.csv,Completed

@@ -1,1 +1,6 @@
-id,date,category,source_type,source,url_or_reference,information,reliability,evidence,notes
+id,date,category,source,reference,information,reliability,evidence,comment
+SRC-001,2026-09-10,Corporate,Corpus fictif - extrait NovaTech,Document simulé,Structure du capital de NovaTech Defense,High,evidence/corporate/SRC-001_novatech_cap_table.md,Point de départ de l'analyse actionnariale
+SRC-002,2026-09-10,Corporate,Corpus fictif - extrait Asteria,Document simulé,Asteria détient 28% de NovaTech et est détenue à 65% par Meridian,High,evidence/corporate/SRC-002_asteria_record.md,Permet de remonter un niveau de la chaîne de contrôle
+SRC-003,2026-09-10,Corporate,Corpus fictif - fiche Meridian,Document simulé,UBO final non identifiable dans le corpus disponible,Medium,evidence/corporate/SRC-003_meridian_record.md,Absence d'information à traiter comme limite et non comme preuve d'irrégularité
+SRC-004,2026-09-10,Legal,Corpus fictif - résumé contentieux,Document simulé,Litige commercial NovaTech/AeroLink en 2023-2024 portant sur 320000 euros,High,evidence/legal/SRC-004_contentieux_fournisseur.md,Antécédent juridique identifié
+SRC-005,2026-09-10,Legal,Corpus fictif - note de clôture,Document simulé,Le litige est indiqué comme clôturé par accord transactionnel en 2024,Medium-High,evidence/legal/SRC-005_note_cloture_litige.md,Modalités financières non disponibles
