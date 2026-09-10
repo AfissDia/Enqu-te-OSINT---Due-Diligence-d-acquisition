@@ -1,4 +1,4 @@
-# Due Diligence OSINT — NovaTech Defense
+# Due Diligence OSINT - NovaTech Defense
 
 ## 1. Executive Summary
 À compléter en fin d'enquête.
@@ -42,4 +42,4 @@ Voir `docs/scenario.md`.
 À compléter.
 
 ## 13. Décision finale
-GO / NO-GO / GO conditionnel — à déterminer à partir des findings.
+GO / NO-GO / GO conditionnel - à déterminer à partir des findings.

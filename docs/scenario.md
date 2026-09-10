@@ -1,13 +1,13 @@
-# Scénario fictif — NovaTech Defense
+# Scénario fictif - NovaTech Defense
 
 ## Identité
 NovaTech Defense SAS est une PME fictive basée à Toulouse, créée en 2012 et comptant environ 120 salariés. Elle conçoit des systèmes embarqués, des solutions de communications sécurisées, des modules électroniques et des logiciels de supervision destinés au secteur de la défense.
 
 ## Dirigeants fictifs
-- Claire Varenne — Présidente / cofondatrice
-- Marc Delcourt — CTO
-- Nadia Ferel — CFO
-- Thomas Reynaud — RSSI
+- Claire Varenne - Présidente / cofondatrice
+- Marc Delcourt - CTO
+- Nadia Ferel - CFO
+- Thomas Reynaud - RSSI
 
 ## Actionnariat fictif
 - Claire Varenne : 32 %
